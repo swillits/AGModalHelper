@@ -2,12 +2,11 @@ AGModalHelper
 =============
 
 Using AGModalHelper, your main application can call upon a helper
-service to run a modal window and return the result.
+service to run a modal window in a separate process and return the
+result.
 
-Why?
-
-Consider the case where the window (or surrounding work needed to
-display it) requires being in a 32-bit application, but the main
+Why? Consider the case where the window (or surrounding work needed
+to display it) requires being in a 32-bit application, but the main
 app is 64-bit. For example, the ancient QuickTime settings windows
 require a 32-bit application, and there is still no 64-bit solution.
 That's where AGModalHelper can come in handy.
