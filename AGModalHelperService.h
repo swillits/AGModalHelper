@@ -11,6 +11,13 @@
 
 
 @interface AGModalHelperService : NSObject <AGModalHelperServiceProtocol>
+{
+	NSDictionary * (^mWorkBlock)(NSDictionary * arguments);
+	NSString * mServerName;
+	NSConnection * mConnection;
+	NSTimer * mTimeoutTimer;
+	id<AGModalHelperApplicationProtocol> mMainApp;
+}
 
 + (void)runWithServerName:(NSString *)serverName block:(NSDictionary * (^)(NSDictionary * arguments))block;
 

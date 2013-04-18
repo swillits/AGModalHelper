@@ -10,11 +10,6 @@
 
 
 @implementation AppDelegate
-{
-	IBOutlet NSPanel * window;
-	IBOutlet NSTextField * textField;
-}
-
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification
 {

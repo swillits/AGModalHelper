@@ -10,5 +10,9 @@
 
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+	IBOutlet NSPanel * window;
+	IBOutlet NSTextField * textField;
+}
 
 @end

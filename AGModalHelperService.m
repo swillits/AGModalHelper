@@ -11,15 +11,6 @@
 
 
 @implementation AGModalHelperService
-{
-	NSDictionary * (^mWorkBlock)(NSDictionary * arguments);
-	NSString * mServerName;
-	NSConnection * mConnection;
-	NSTimer * mTimeoutTimer;
-	id<AGModalHelperApplicationProtocol> mMainApp;
-}
-
-
 
 
 #pragma mark -
