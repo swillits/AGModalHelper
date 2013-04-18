@@ -18,6 +18,9 @@ the hood. An XPC-based implementation would be lovely, but my own
 use cases have to work on 10.6.
 
 
+![Screenshot](https://github.com/swillits/AGModalHelper/raw/master/Screenshot.png)
+
+
 Usage
 =============
 There are two classes in this project: AGModalHelperProxy and
