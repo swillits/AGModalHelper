@@ -14,9 +14,6 @@ That's where AGModalHelper can come in handy.
 
 This is an "experimental" project, but it should be working fine.
 
-![Screenshot](https://github.com/swillits/NSMenu-Dark/raw/master/Screenshot.png)
-
-
 This project only requires 10.6 and uses an NSConnection under
 the hood. An XPC-based implementation would be lovely, but my own
 use cases have to work on 10.6.
