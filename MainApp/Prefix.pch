@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AGModalHelper' target in the 'AGModalHelper' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
