@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DCBCB2217209D1C00018AE6 /* AGModalHelperService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBCB2117209D1C00018AE6 /* AGModalHelperService.m */; };
+		5DCBCB2B1720B7D500018AE6 /* AGModalHelperProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBCB271720B7C700018AE6 /* AGModalHelperProxy.m */; };
+		5DCBCB2C1720B7D800018AE6 /* AGModalHelperService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBCB291720B7C700018AE6 /* AGModalHelperService.m */; };
 		5DD9D406172055B600FC009C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD9D405172055B600FC009C /* Cocoa.framework */; };
 		5DD9D410172055B600FC009C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DD9D40E172055B600FC009C /* InfoPlist.strings */; };
 		5DD9D412172055B600FC009C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9D411172055B600FC009C /* main.m */; };
@@ -18,7 +19,6 @@
 		5DD9D42F1720573C00FC009C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9D42E1720573C00FC009C /* main.m */; };
 		5DD9D4361720573C00FC009C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9D4351720573C00FC009C /* AppDelegate.m */; };
 		5DD9D4391720573C00FC009C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD9D4371720573C00FC009C /* MainMenu.xib */; };
-		5DD9D43F17205DAD00FC009C /* AGModalHelperProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9D43E17205DAD00FC009C /* AGModalHelperProxy.m */; };
 		5DD9D44317206B4500FC009C /* Helper.app in Resources */ = {isa = PBXBuildFile; fileRef = 5DD9D4261720573C00FC009C /* Helper.app */; };
 /* End PBXBuildFile section */
 
@@ -33,11 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5DCBCB2017209D1C00018AE6 /* AGModalHelperService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGModalHelperService.h; sourceTree = "<group>"; };
-		5DCBCB2117209D1C00018AE6 /* AGModalHelperService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGModalHelperService.m; sourceTree = "<group>"; };
 		5DCBCB231720A9F000018AE6 /* MainApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MainApp-Info.plist"; sourceTree = "<group>"; };
 		5DCBCB241720A9F000018AE6 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		5DD9D402172055B600FC009C /* AGModalHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGModalHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCBCB261720B7C700018AE6 /* AGModalHelperProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGModalHelperProxy.h; sourceTree = "<group>"; };
+		5DCBCB271720B7C700018AE6 /* AGModalHelperProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGModalHelperProxy.m; sourceTree = "<group>"; };
+		5DCBCB281720B7C700018AE6 /* AGModalHelperService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGModalHelperService.h; sourceTree = "<group>"; };
+		5DCBCB291720B7C700018AE6 /* AGModalHelperService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGModalHelperService.m; sourceTree = "<group>"; };
+		5DCBCB2A1720B7C700018AE6 /* AGModalHelperShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGModalHelperShared.h; sourceTree = "<group>"; };
+		5DD9D402172055B600FC009C /* AGModalHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AGModalHelper.app; path = "Main App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD9D405172055B600FC009C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5DD9D408172055B600FC009C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5DD9D409172055B600FC009C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -55,9 +58,6 @@
 		5DD9D4341720573C00FC009C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DD9D4351720573C00FC009C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5DD9D4381720573C00FC009C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5DD9D43D17205DAD00FC009C /* AGModalHelperProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGModalHelperProxy.h; sourceTree = "<group>"; };
-		5DD9D43E17205DAD00FC009C /* AGModalHelperProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGModalHelperProxy.m; sourceTree = "<group>"; };
-		5DD9D440172060E900FC009C /* AGModalHelperShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AGModalHelperShared.h; path = Helper/AGModalHelperShared.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,11 @@
 		5DD9D3F9172055B600FC009C = {
 			isa = PBXGroup;
 			children = (
-				5DD9D440172060E900FC009C /* AGModalHelperShared.h */,
+				5DCBCB2A1720B7C700018AE6 /* AGModalHelperShared.h */,
+				5DCBCB261720B7C700018AE6 /* AGModalHelperProxy.h */,
+				5DCBCB271720B7C700018AE6 /* AGModalHelperProxy.m */,
+				5DCBCB281720B7C700018AE6 /* AGModalHelperService.h */,
+				5DCBCB291720B7C700018AE6 /* AGModalHelperService.m */,
 				5DD9D40B172055B600FC009C /* Main App */,
 				5DD9D4281720573C00FC009C /* Helper Service */,
 				5DD9D404172055B600FC009C /* Frameworks */,
@@ -124,8 +128,6 @@
 			children = (
 				5DD9D417172055B600FC009C /* AppDelegate.h */,
 				5DD9D418172055B600FC009C /* AppDelegate.m */,
-				5DD9D43D17205DAD00FC009C /* AGModalHelperProxy.h */,
-				5DD9D43E17205DAD00FC009C /* AGModalHelperProxy.m */,
 				5DD9D41A172055B600FC009C /* MainMenu.xib */,
 				5DD9D40C172055B600FC009C /* Supporting Files */,
 			);
@@ -149,8 +151,6 @@
 			children = (
 				5DD9D4341720573C00FC009C /* AppDelegate.h */,
 				5DD9D4351720573C00FC009C /* AppDelegate.m */,
-				5DCBCB2017209D1C00018AE6 /* AGModalHelperService.h */,
-				5DCBCB2117209D1C00018AE6 /* AGModalHelperService.m */,
 				5DD9D4371720573C00FC009C /* MainMenu.xib */,
 				5DD9D4291720573C00FC009C /* Supporting Files */,
 			);
@@ -263,7 +263,7 @@
 			files = (
 				5DD9D412172055B600FC009C /* main.m in Sources */,
 				5DD9D419172055B600FC009C /* AppDelegate.m in Sources */,
-				5DD9D43F17205DAD00FC009C /* AGModalHelperProxy.m in Sources */,
+				5DCBCB2B1720B7D500018AE6 /* AGModalHelperProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +273,7 @@
 			files = (
 				5DD9D42F1720573C00FC009C /* main.m in Sources */,
 				5DD9D4361720573C00FC009C /* AppDelegate.m in Sources */,
-				5DCBCB2217209D1C00018AE6 /* AGModalHelperService.m in Sources */,
+				5DCBCB2C1720B7D800018AE6 /* AGModalHelperService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
